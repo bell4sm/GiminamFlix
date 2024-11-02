@@ -1,0 +1,63 @@
+body {
+    color:rgb(218, 238, 183);
+    background:darkolivegreen;
+    margin: 0px;
+    font-family: "IM Fell DW Pica SC", serif;
+    margin-bottom: 77px;
+}
+
+header{
+border-bottom: solid 2px rgb(134, 156, 96);
+padding: 20px;
+font-size: 30px;
+color: rgb(119, 141, 82);
+}
+
+.chamada {
+    background: rgb(101, 121, 66);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5% ;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+p {
+    font-size: 20px;
+}
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+    }
+    
+    .categoria {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 50px;
+    }
+
+    .categoria-videos  img {
+        opacity: 0.7;
+        height: 200px;
+    }
+
+    .categoria-videos img:hover {
+        opacity: 1.0;
+        border: 1px solid rgb(48, 87, 48)
+    }
+
+    .categoria h2 {
+        color: rgb(218, 238, 183) ;
+    }
